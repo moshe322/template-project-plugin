@@ -3,8 +3,22 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.580.1</version>
+    <version>1.5.0</version>
   </parent>
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.9.1</version>
+          <configuration>
+            <!-- put your configurations here -->
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
 
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>template-project</artifactId>
